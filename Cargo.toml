@@ -1,0 +1,15 @@
+[package]
+name = "discord_bot"
+version = "0.1.0"
+authors = ["mikopits <mikopits@gmail.com>"]
+
+[dependencies]
+chrono = { version = "0.3", features = ["rustc-serialize"] }
+csv = "0.15.0"
+discord = { git = "https://github.com/ArtemGr/discord-rs" }
+rand = "0.3.15"
+regex = "0.2.1"
+rustc-serialize = "0.3.23"
+#scoped_threadpool = "0.1.*"
+clover = { git = "https://github.com/mikopits/clover" }
+nineanime = { git = "https://github.com/mikopits/nineanime" }
